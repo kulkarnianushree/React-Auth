@@ -20,6 +20,7 @@ const AuthForm = () => {
     const enteredEmail = EmailInputRef.current.value;
     const enteredPassword = PasswordInputRef.current.value;
     setMessage(true);
+    
 
     let Url;
     if (isLogin) {
